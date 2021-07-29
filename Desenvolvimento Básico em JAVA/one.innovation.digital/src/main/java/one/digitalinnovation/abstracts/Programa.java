@@ -1,5 +1,7 @@
 package one.digitalinnovation.abstracts;
 
+import java.util.stream.IntStream;
+
 public class Programa {
 
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class Programa {
         final FormaGeometrica quadadro = new Quadrado("quadadro", 10.0);
 
         System.out.println(quadadro);
-        
+
         System.out.println(quadadro.desenha(12,34));
         System.out.println(quadadro.nome());
         System.out.println(quadadro.area());
